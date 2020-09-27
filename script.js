@@ -3,7 +3,7 @@ var resolve = require("path").resolve;
 var join = require("path").join;
 var cp = require("os");
 
-const ignore = ["node_module"];
+const ignore = ["node_modules"];
 
 function start(path) {
     var lib = resolve(__dirname,path);
